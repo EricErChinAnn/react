@@ -1,0 +1,57 @@
+body{
+  background-color: black;
+}
+
+.topPic {
+  height: 100vh;
+  background-image: url("a1.jpg");
+  background-size: cover;
+}
+
+.bookingTxt {
+  background-color: rgba(255, 255, 255, 0.653);
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  cursor: pointer;
+  border-color: black;
+  border: 5px;
+}
+
+.navBar {
+  display: inline-flex;
+  list-style: none;
+  padding-inline-start: 40px;
+}
+
+.navTab {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navTab:hover {
+  color: white;
+  background-color: rgb(193, 193, 193);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contentHolder{
+  background-attachment: fixed;
+  height: 100vh;
+  background-image: url("a2.jpg");  
+  opacity: 0.2;
+  background-size: cover;
+}
+
+.aboutUs {
+  position: relative;
+}
+
+.content{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+}
